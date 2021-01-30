@@ -133,29 +133,28 @@ img{
 .content-right {
 	float: right;
 	width: 60%;
+	box-sizing: border-box;
 }
-.mr-mokles {
+.content-right h1{
 	background-color: #dddddd;
 	padding-left: 100px;
 }
-.about-me {
-	width: 601px;
-	margin-left: 102px;
-	margin-top: 15px;
-}
-.about-me h2 {
+.content-right h2{
 	color: #a52a2a;
 }
-.about-me strong {
+.content-right strong{
 	display: inline-block;
 	margin: 10px 0px;
 }
-.about-me b {
+.content-right b{
 	display: inline-block;
 	margin: 10px 0px;
 }
+.content-right h1,.content-right h2,.content-right p,.content-right strong,.content-right ul,.content-right b{
+	padding-left: 100px;
+}
 
-
+/* Service-section Css */
 .service{
     padding: 10px 0px;
 }
